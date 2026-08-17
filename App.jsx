@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Window } from './components/Window';
-import { Taskbar } from './components/Taskbar';
-import { TerminalApp } from './components/apps/TerminalApp';
-import { NotepadApp } from './components/apps/NotepadApp';
-
+import { Window } from './components/Window.jsx';
+import { Taskbar } from './components/Taskbar.jsx';
+import { TerminalApp } from './components/apps/TerminalApp.jsx';
+import { NotepadApp } from './components/apps/NotepadApp.jsx';
 export default function App() {
   const [windows, setWindows] = useState([
     {
